@@ -10,7 +10,7 @@ body {
 section:not([id]) {
     margin: 1em 0;
     padding: 0.5em 0;
-    border-top: 1px solid #333;
+    border-top: 1em solid #333;
 }
 
 section h3 {
@@ -85,7 +85,7 @@ section code {
 
 .txtLink {
     font-family: 'Helvetica', sans-serif;
-    font-size: 15px;
+    font-size: 1em;
 }
 
 .button-submit {
@@ -98,12 +98,12 @@ section code {
     transition: background-color 0.5s ease-out;
     transition: background-color 0.5s ease-out;
     font-family: 'Helvetica', serif;
-    font-size: 15px;
+    font-size: 1em;
 }
 
 .button-reset {
     display: inline-block;
-    padding: 0.5em 3.25em;
+    padding: 0.5em 1.25em;
     color: #FFF;
     background-color: #333638;
     border-radius: 0.5em;
@@ -111,12 +111,14 @@ section code {
     -webkit-transition: background-color 0.5s ease-out;
     transition: background-color 0.5s ease-out;
     font-family: 'Helvetica', serif;
-    font-size: 15px;
+    font-size: 1em;
 }
 
 .textInput {
     font-family: 'Helvetica', sans-serif;
-    font-size: 15px;
+    font-size: 1em;
+    width: 50%;
+    margin: 0.5em 0;
 }
 
 /*
@@ -124,33 +126,33 @@ section code {
 */
 .header1 {
     font-family: 'bebas', serif;
-    font-size: 45px;
+    font-size: 4.5em;
 }
 
 .header2 {
     font-family: 'bebas', serif;
-    font-size: 35px;
+    font-size: 3.5em;
 }
 
 .header3 {
     font-family: 'bebas', sans-serif;
-    font-size: 25px;
+    font-size: 2.5em;
 }
 
 .pgph {
     font-family: 'Helvetica', sans-serif;
-    font-size: 15px;
+    font-size: 1em;
 }
 
 .list1 {
     list-style-type: square;
     font-family: 'Helvetica', sans-serif;
-    font-size: 15px;
+    font-size: 1em;
 }
 
 .list2 {
     font-family: 'Helvetica', sans-serif;
-    font-size: 15px;
+    font-size: 1em;
 }
 
 .item{
