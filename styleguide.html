@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewpoint" content="width-of-device, initial-scale=1.0">
+
+
+    <title>P01 - Style Guide Template</title>
+
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/flexbox.css" rel="stylesheet">
+    <link href="css/fonts.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <h1>P01 - Style Guide Template</h1>
+
+    <nav>
+      <p>
+        <a href="#interactive_elements">Interactive Elements</a>,
+        <a href="#text_elements">Text Elements</a>,
+        <a href="#combined_elements">Combined Elements</a><br>
+        <a href="http://www.sfu.ca/~jtt5/IAT%20339/Po1/Wireframes/#g=1&p=smartphone_home">Wireframes</a>,
+        <a href="styleguide.html">Styleguide</a>,
+        <a href="citations.html">Citations</a>
+      </p>
+    </nav>
+
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+
+      <section>
+        <h2>Navigation Button</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.button-nav</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;a href="#" class="button"&gt;OPTICS&lt;/a&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <a class="button-nav" href="#">OPTICS</a>
+      </section>
+
+      <section>
+        <h2>In-text link</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.txtLink</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;a class="txtLink" href="http://google.com"&gt;In-text link&lt;/a&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <a class="txtLink" href="http://google.com">In-text link</a>
+      </section>
+
+      <section>
+        <h2>Submit Button</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.button-submit</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;input class="button-submit" type="submit" value="Submit"&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <input class="button-submit" type="submit" value="Submit">
+
+        <h2>Reset Button</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.button-reset</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;a class="button-reset" href="#"&gt;Reset&lt;/a&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <a class="button-reset" href="#">Reset</a>
+      </section>
+
+      <section>
+        <h2>Text Input Field</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.textInput</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;form class="textInput"&gt;Search&lt;br&gt;&lt;input class="textInput" type="text" name="inputField"&gt&lt;/form&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <form class="textInput">
+          Search<br>
+          <input class="textInput" type="text" name="inputField">
+        </form>
+      </section>
+
+    </section>
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+
+      <section>
+        <h2>Headings</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.header1, .header2, .header3</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;h1 class="header1"&gt;JOptics&lt;/h1&gt;</code>
+        <code>&lt;h2 class="header2"&gt;JOptics&lt;/h2&gt;</code>
+        <code>&lt;h3 class="header3"&gt;JOptics&lt;/h3&gt;</code>
+
+
+        <h3>Rendered element:</h3>
+        <h1 class="header1">JOptics</h1>
+        <h2 class="header2">JOptics</h2>
+        <h3 class="header3">JOptics</h3>
+      </section>
+
+      <section>
+        <h2>Paragraphs</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.pgph</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;p class="pgph"&gt;JOptics integrates classic and modern frame design to eyewears...&lt;/p&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <p class="pgph">JOptics integrates classic and modern frame design to eyewears
+        along with quality craftsmanship. It sells handmade eyewear that provides
+        a comfort experience as well as character and personality to the users.
+        This company is a place for custumer who wants to experience a high sense
+        of fashion and also wants to show off their own unique sense of style.</p>
+      </section>
+
+      <section>
+        <h2>Bulleted Lists</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.list1</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;ul class="list1"&gt;</code>
+        <code>&lt;li&gt;Sunglasses&lt;/li&gt;</code>
+        <code>&lt;li&gt;Frames&lt;/li&gt;</code>
+        <code>&lt;li&gt;Lenses&lt;/li&gt;</code>
+        <code>&lt;/ul&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <ul class="list1">
+          <li>Sunglasses</li>
+          <li>Frames</li>
+          <li>Lenses</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Numbered Lists</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.list2</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;ol class="list2"&gt;</code>
+        <code>&lt;li&gt;Sunglasses&lt;/li&gt;</code>
+        <code>&lt;li&gt;Frames&lt;/li&gt;</code>
+        <code>&lt;li&gt;Lenses&lt;/li&gt;</code>
+        <code>&lt;/ol&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <ol class="list2">
+          <li>Sunglasses</li>
+          <li>Frames</li>
+          <li>Lenses</li>
+        </ol>
+      </section>
+    </section>
+    <!-- // TEXT ELEMENTS SECTION -->
+
+
+    <!-- // COMBINED ELEMENTS SECTION -->
+    <section id="combined_elements">
+
+      <!--Main navigation -->
+      <section>
+        <h2>Main navigation</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.web_nav a, .web_nav_box a, .web_nav a:hover</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;nav class="web_nav"&gt;</code>
+        <code>&lt;a href =""&gt;Home&lt;/a&gt;</code>
+        <code>&lt;a href =""&gt;Sunglasses&lt;/a&gt;</code>
+        <code>&lt;a href =""&gt;Frames&lt;/a&gt;</code>
+        <code>&lt;a href =""&gt;Lenses&lt;/a&gt;</code>
+        <code>&lt;/nav&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <nav class="web_nav">
+          <a href ="#">Home</a>
+          <a href ="#">Sunglasses</a>
+          <a href ="#">Frames</a>
+          <a href ="#">Lenses</a>
+        </nav>
+      </section>
+
+      <section>
+        <h2>Product Listing</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.container, .item</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;div class="container"&gt;</code>
+        <code>&lt;div class="item"&gt;</code>
+        <code>&lt;img src="img/glasses1.jpg" alt="glasses1"&gt;</code>
+        <code>&lt;/div&gt;</code>
+        <code>&lt;/div&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <div class="container">
+
+        <div class="item">
+          <img src="img/featured.jpg" alt="featured" width="300" height="400"></img>
+          <p><strong>Featured Product</strong></p>
+        </div>
+
+          <div class="item">
+            <img src="img/blackframe1.jpg" alt="blackframe1" width="300" height="270"></img>
+            <p>$200.00 CAD</p>
+          </div>
+
+          <div class="item">
+            <img src="img/blackframe2.jpg" alt="blackframe2" width="300" height="280"></img>
+            <p>$400.00 CAD</p>
+          </div>
+
+          <div class="item">
+            <img src="img/sunglasses.jpg" alt="sunglasses" width="300" height="280"></img>
+            <p>$700.00 CAD</p>
+          </div>
+        </div>
+      </section>
+
+
+    <!-- Website Grid Structure -->
+      <section>
+
+        <h2 class="styleguide">Website Grid Structure</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.grid1, .grid1_row, .grid1_1, .grid1_2,.grid2_1, .grid2_2, .grid2_3,.grid3_1, .grid3_2, .grid3_3, .grid3_4</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;div class="grid_row"&gt;</code>
+        <code>&lt;div class="grid1_1"&gt;&lt;/div&gt;</code>
+        <code>&lt;/div&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <div class="grid_row">
+          <div class="grid1">grid1</div>
+        </div>
+
+        <div class="grid_row">
+          <div class="grid1_1">grid1_1</div>
+          <div class="grid1_2">grid1_2</div>
+        </div>
+
+        <div class="grid_row">
+          <div class="grid2_1">grid2_1</div>
+          <div class="grid2_2">grid2_2</div>
+          <div class="grid2_3">grid2_3</div>
+        </div>
+
+        <div class="grid_row">
+          <div class="grid3_1">grid3_1</div>
+          <div class="grid3_2">grid3_2</div>
+          <div class="grid3_3">grid3_3</div>
+          <div class="grid3_4">grid3_4</div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Website Colour Swatches</h2>
+
+        <h3>CSS selectors:</h3>
+        <p>.swatch1, .swatch2, .swatch3, .swatch4, .swatch5, .swatch6</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;p class="swatch1"&gt;111111&lt;/p&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <p class="swatch1">#111111</p>
+        <p class="swatch2">#333333</p>
+        <p class="swatch3">#555555</p>
+        <p class="swatch4">#777777</p>
+        <p class="swatch5">#999999</p>
+        <p class="swatch6">#9CA56A</p>
+      </section>
+    </section>
+
+  </body>
+</html>
