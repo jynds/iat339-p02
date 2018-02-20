@@ -168,35 +168,28 @@ section code {
     color: white;
 }
 
-.grid1_row{
+.grid0 {
     background-color: #333638;
     width:100%;
     margin:0.5em;
     padding: 2em;
 }
 
-.grid1 {
-    background-color: #333638;
-    width:100%;
-    margin:0.5em;
-    padding: 2em;
-}
-
-.grid1_1, .grid1_2{
+.grid1{
     background-color: #333638;
     width:50%;
     margin:0.5em;
     padding: 2em;
 }
 
-.grid2_1, .grid2_2, .grid2_3{
+.grid2{
     background-color: #333638;
     width:33.33%;
     margin:0.5em;
     padding: 2em;
 }
 
-.grid3_1, .grid3_2, .grid3_3, .grid3_4{
+.grid3{
     background-color: #333638;
     width:25%;
     margin:0.5em;
