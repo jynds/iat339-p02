@@ -54,12 +54,17 @@ section code {
 }
 
 /* styling for navigation */
-.web_nav, .grid_row{
+.grid_row{
     display:flex;
+    flex-wrap: wrap;
 }
 
+.block {
+  flex-grow: 1;
+  flex-basis: 10em;
+}
 
-.web_nav a{
+.block a{
     color:white;
     background-color:#333638;
     padding: .50em 11%;
@@ -67,7 +72,6 @@ section code {
     transition: background-color 0.5s ease-out;
     text-decoration: none;
     text-align: center;
-    width: 50%;
     font-size: 0.98em;
 }
 
