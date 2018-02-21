@@ -83,7 +83,6 @@ section code {
 
 .web_nav a:hover {
     background-color: #9CA56A;
-    color:white;
 }
 
 
@@ -165,6 +164,9 @@ section code {
     font-size: 0.9em;
 }
 
+.item img {
+    width: 100%;
+}
 
 /* styling for grid structure */
 .grid_row {
@@ -173,30 +175,22 @@ section code {
 }
 
 .grid0 {
-    background-color: #333638;
     width:100%;
-    margin:0.5em;
     padding: 2em;
 }
 
 .grid1{
-    background-color: #333638;
     width:50%;
-    margin:0.5em;
     padding: 2em;
 }
 
 .grid2{
-    background-color: #333638;
     width:33.33%;
-    margin:0.5em;
     padding: 2em;
 }
 
 .grid3{
-    background-color: #333638;
     width:25%;
-    margin:0.5em;
     padding: 2em;
 }
 
