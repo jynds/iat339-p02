@@ -54,14 +54,10 @@ section code {
 }
 
 /* styling for navigation */
-.grid_row{
-    display:flex;
-    flex-wrap: wrap;
-}
 
 .block {
-  flex-grow: 1;
-  flex-basis: 10em;
+    flex-grow: 1;
+    flex-basis: 10em;
 }
 
 .block a{
@@ -74,17 +70,6 @@ section code {
     text-align: center;
     font-size: 0.98em;
 }
-
-.web_nav_box a{
-    display:1 1 auto;
-    text-decoration: none;
-}
-
-
-.web_nav a:hover {
-    background-color: #9CA56A;
-}
-
 
 .txtLink {
     font-family: 'Helvetica', sans-serif;
@@ -129,12 +114,13 @@ section code {
 */
 .header1 {
     font-family: 'bebas', serif;
-    font-size: 4.5em;
+    font-size: 3em;
 }
 
 .header2 {
     font-family: 'bebas', serif;
-    font-size: 3.5em;
+    font-size: 1.5em;
+    margin-top: 3em;
 }
 
 .header3 {
@@ -165,12 +151,50 @@ section code {
 }
 
 .item img {
-    width: 80%;
+    width: 50%;
+}
+
+/* styling for cart */
+.cartitem {
+    height: 10 em;
+    border-color: black;
+    border-style: solid;
+    border-width: 0.1em;
+    background-color: #555555;
+}
+
+.cartitem img {
+    width: 10%;
+    height: 20%;
+    float: left;
+}
+
+.cartitem p {
+    text-align: center;
+    padding: 1em 0em;
+}
+
+.cartitem .block {
+    float: right;
+    
+}
+
+.cartfunctions {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.cartfunctions a {
+    width: 100%;
+    padding: 1em 0em;
+    margin-top: 3em;
 }
 
 /* styling for grid structure */
 .grid_row {
     text-align: center;
+    color: white;
 }
 
 .grid0 {
@@ -188,11 +212,20 @@ section code {
     padding: 2em;
 }
 
-.grid3{
-    width:25%;
+.grid2_2{
+    width:66.66%;
     padding: 2em;
 }
 
+.grid3{
+    width: 25%;
+    padding: 1em;
+}
+
+.grid3_2{
+    width: 75%;
+    padding: 1em;
+}
 
 /*
   COMBINED ELEMENTS -------------------
