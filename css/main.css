@@ -165,13 +165,12 @@ section code {
 }
 
 .item img {
-    width: 100%;
+    width: 80%;
 }
 
 /* styling for grid structure */
 .grid_row {
     text-align: center;
-    color: white;
 }
 
 .grid0 {
