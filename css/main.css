@@ -108,7 +108,6 @@ section h3 {
 .textInput {
     font-family: 'Helvetica', sans-serif;
     font-size: 1em;
-    width: 50%;
     margin: 0.5em 0;
 }
 
@@ -169,18 +168,13 @@ section h3 {
 
 .cartitem img {
     width: 10%;
-    height: 20%;
+    height: 5em;
     float: left;
 }
 
 .cartitem p {
     text-align: center;
     padding: 1em 0em;
-}
-
-.cartitem .block {
-    float: right;
-    
 }
 
 .cartfunctions {
