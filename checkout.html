@@ -16,12 +16,7 @@
 
     <body>
         <section id="header">
-            <div class="login">
-                <input type="submit" onclick="window.location = 'login.html'" value="LOGIN / REGISTER">
-            </div>
-            <div class="container">
-                <h1 class="header1">JOptics</h1>
-            </div>
+            <h1 class="header1">JOptics</h1>
         </section>
 
         <section id="navigation">
@@ -38,36 +33,40 @@
                 <div class="grid3">
                     <a class="button-nav" href ="product_listing.html">Lenses</a>
                 </div>
-                <div class="grid3">
-                    <a class="button-nav" href ="cart.html">Cart</a>
-                </div>
             </nav>
         </section>
 
         <section id="content">
             <h2 class="header2">Your Cart</h2>
             <div class="container">
-                <div class="grid3 cartfunctions">
-                    <h3 class="header3">Items in Cart</h3>
+                <div class="grid3_2 swatch4 cartfunctions">
+
                     <div class="cartitem">
                         <a href="products/sunglasses.html">
-                            <img src="../img/bradburry1-1.jpg" alt="featured">
+                            <img src="../img/featured.jpg" alt="featured">
                         </a>
-                        <p class="pgph">Bradburry Sunglasses <b>$249.00</b></p>
+                        <p class="pgph">Featured Item <b>$X.XX</b></p>
                     </div>
 
                     <div class="cartitem">
-                        <a href="products/sunglasses4.html">
-                            <img src="../img/carlo.jpg" alt="blackframe1">
+                        <a href="products/sunglasses.html">
+                            <img src="../img/blackframe1.jpg" alt="blackframe1">
                         </a>
-                        <p class="pgph">Carlo Sunglasses <b>$200.00</b></p>
+                        <p class="pgph">Black Frame Ver. 1 <b>$X.XX</b></p>
+                    </div>
+
+                    <div class="cartitem">
+                        <a href="products/sunglasses.html">
+                            <img src="../img/blackframe2.jpg" alt="blackframe1">
+                        </a>
+                        <p class="pgph">Black Frame Ver. 2 <b>$X.XX</b></p>
                     </div>
                 </div>
-                <div class="grid3 cartfunctions">
-                    <h3 class="header3">Total: $429.00</h3>
-                    <input type="submit" onclick="window.location = 'product_listing.html'" value="Return to Shopping">
-                    <input type="submit" onclick="window.location = 'checkout.html'" value="Checkout">
-                    <input type="submit" value="Clear Cart">
+                <div class="grid3 swatch5 cartfunctions">
+                    <h3 class="header3">Total: $X.XX</h3>
+                    <a class="button-submit" href="product_listing.html">Return to Shopping</a>
+                    <a class="button-submit" href="checkout.html">Checkout</a>
+                    <a class="button-submit" href="#">Clear Cart</a>
                 </div>
             </div>
         </section>
