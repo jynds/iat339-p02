@@ -17,118 +17,131 @@
 
     <body>
       <section id="header">
-        <div class="login">
-          <a href="login.html">LOGIN / REGISTER</a>
-        </div>
-        <div class="container">
-          <h1 class="header1">JOptics</h1>
-        </div>
+          <div class="login">
+            <h1>
+              <a class="header1" href="index.html">JOptics</a>
+            </h1>
+              <button class="btn" onclick="window.location = 'login.html'">LOGIN / REGISTER</button>
+              <button class="btn" onclick="window.location = 'cart.html'">CART</button>
+          </div>
       </section>
 
-        <section id="navigation">
-            <nav class="container">
-                <div class="grid3">
-                    <a class="button-nav" href ="index.html">Home</a>
-                </div>
-                <div class="grid3">
-                    <a class="button-nav" href ="product_listing.html">Sunglasses</a>
-                </div>
-                <div class="grid3">
-                    <a class="button-nav" href ="product_listing.html">Frames</a>
-                </div>
-                <div class="grid3">
-                    <a class="button-nav" href ="product_listing.html">Lenses</a>
-                </div>
-            </nav>
-        </section>
+      <section id="navigation">
+          <nav class="container">
+              <div class="grid3">
+                  <a class="button-nav" href ="../index.html">Home</a>
+              </div>
+              <div class="grid3">
+                  <a class="button-nav" href ="product_listing.html">Sunglasses</a>
+              </div>
+              <div class="grid3">
+                  <a class="button-nav" href ="product_listing.html">Frames</a>
+              </div>
+              <div class="grid3">
+                  <a class="button-nav" href ="product_listing.html">Lenses</a>
+              </div>
+          </nav>
+      </section>
 
+        <section id="content">
         <div class="container">
-
-        <div class="checkout_info">
-      		<h1>CHECK OUT</h1>
-      		<h4 id="billing_padding">RETURNING CUSTOMER? <a href="login.html">CLICK HERE TO LOGIN</a></h4>
-
-
-      		<h5>BILLING DETAIL</h5>
-      		<form>
-
-                  <ul>
-                  	<li>
-                  		<div><label for="first-name">FIRST NAME</label><label id="label_last_name" for="last-name">LAST NAME</label></div>
-
-                          <input type="text" id="first-name" placeholder="" />    <input type="text" id="last-name" placeholder="" />
-                      </li>
+            <div class="checkout_info">
+                <h1>CHECK OUT</h1>
+                <h4 id="billing_padding">RETURNING CUSTOMER? <a href="login.html">CLICK HERE TO LOGIN</a></h4>
 
 
-                      <li>
-      	                <div><label for="country">Region</label></div>
+                <h5>BILLING DETAIL</h5>
+                <form>
+                    <ul>
+                        <li>
+                            <div><label for="first-name">FIRST NAME</label><label id="label_last_name" for="last-name">LAST NAME</label></div>
+                            <input type="text" id="first-name" placeholder="" />    <input type="text" id="last-name" placeholder="" />
+                        </li>
+                        <li>
+                            <div><label for="country">Region</label></div>
+                            <select id="country" name="country">
+                                <option value="canada">Canada</option>
+                                <option value="australia">China</option>
+                                <option value="usa">USA</option>
+                            </select>
+                        </li>
+                        <li>
+                            <div><label for="city">CITY</label></div>
+                            <input type="text" id="city" placeholder="" />
+                        </li>
+                        <li>
+                            <div><label for="address">ADDRESS</label></div>
+                            <input type="text" id="address" placeholder="" />
+                        </li>
+                        <li>
+                            <div><label for="postcode">POSTCODE</label></div>
+                            <input type="text" id="postcode" placeholder="" />
+                        </li>
+                    </ul>
+                </form>
 
-      	                <select id="country" name="country">
-      		              <option value="canada">Canada</option>
-      		              <option value="australia">China</option>
-      		              <option value="usa">USA</option>
-      		             </select>
-
-                		</li>
-
-                      <li>
-                  		<div><label for="city">CITY</label></div>
-
-                          <input type="text" id="city" placeholder="" />
-                      </li>
-
-                      <li>
-                  		<div><label for="address">ADDRESS</label></div>
-
-                          <input type="text" id="address" placeholder="" />
-                      </li>
-
-                      <li>
-                  		<div><label for="postcode">POSTCODE</label></div>
-
-                          <input type="text" id="postcode" placeholder="" />
-                      </li>
-
-                  </ul>
-              </form>
-
-              <h5>PAYMENT METHOD</h5>
-      		<form>
-
-                  <ul>
-                  	<li>
-      	                <div><label for="type">PAYMENT TYPE</label></div>
-
-      	                <select id="type" name="type">
-      		              <option value="canada">VISA</option>
-      		              <option value="australia">MASTER CARD</option>
-      		              <option value="usa">AMERICAN EXPRESS</option>
-      		             </select>
-
-                		</li>
-                  	<li>
-                  		<div><label for="cardholder-name">CARDHOLDER NAME</label></div>
-
-                          <input type="text" id="cardholder-name" placeholder="" />
-                      </li>
-
-                      <li>
-                  		<div><label for="security-number">SECURITY NUMBER</label></div>
-
-                          <input type="text" id="security-number" placeholder="" />
-                      </li>
-
-                      <li>
-                          <a class="button-buy" href="#">PLACE YOUR ORDER</a>
-
-                      </li>
-                  </ul>
-              </form>
-
-      	</div>
-      </div>
+                <h5>PAYMENT METHOD</h5>
+                <form>
+                    <ul>
+                        <li>
+                            <div><label for="type">PAYMENT TYPE</label></div>
+                            <select id="type" name="type">
+                                <option value="canada">VISA</option>
+                                <option value="australia">MASTER CARD</option>
+                                <option value="usa">AMERICAN EXPRESS</option>
+                            </select>
+                        </li>
+                        <li>
+                            <div><label for="cardholder-name">CARDHOLDER NAME</label></div>
+                            <input type="text" id="cardholder-name" placeholder="" />
+                        </li>
+                        <li>
+                            <div><label for="security-number">SECURITY NUMBER</label></div>
+                            <input type="text" id="security-number" placeholder="" />
+                        </li>
+                        <li>
+                            <a class="button-buy" href="#">PLACE YOUR ORDER</a>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+        </section>
 
         <section id="footer">
-
+            <div class="footer">
+                <div class="container">
+                    <div class="footgrid footleft">
+                        <ul class="">
+                            <li>
+                                <a href ="product_listing.html">Sunglasses</a>
+                            </li>
+                            <li>
+                                <a href ="product_listing.html">Frames</a>
+                            </li>
+                            <li>
+                                <a href ="product_listing.html">Lenses</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footgrid footright">
+                        <ul class="">
+                          <li>
+                              <a href ="contact_us.html">Contact Us</a>
+                          </li>
+                          <li>
+                              <a href ="https://github.com/jynds/iat339-p02">GitHub</a>
+                          </li>
+                          <li>
+                              <a href ="citations.html">Citations</a>
+                          </li>
+                          <li>
+                              <a href ="http://www.sfu.ca/~jtt5/IAT%20339/Po2/P02%20Styleguide/styleguide.html">Styleguide</a>
+                          </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </section>
     </body>
+</html>
