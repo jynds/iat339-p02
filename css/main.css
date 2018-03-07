@@ -9,10 +9,6 @@ body {
     margin: 0em 0em;
 }
 
-body > div { 
-    overflow: auto
-}
-
 header {
     margin: 1%;
     padding: 1%;
@@ -389,6 +385,17 @@ product detail
 }
 
 /* login page*/
+
+.login_box {
+  text-align: center;
+  margin-top: 10em;
+  margin-bottom: 15em;
+}
+
+.login_box h1 {
+    width: 100%;
+}
+
 .body_context ul li span span{
     display: block;
     margin-top: 0;
@@ -407,7 +414,7 @@ input[type=submit], .btn {
     display: inline-block;
     border: solid;
     padding: 0.4em 2em;
-    margin: 2em 0.7em;
+    margin: 2em 0.9em;
     background-color: white;
     letter-spacing: 0.2em;
     text-decoration: none;
@@ -493,7 +500,7 @@ input[type=text], input[type=password], textarea {
     display: inline-block;
 }
 
-.footer ul {
+.footer ul, #login-page {
     list-style-type: none;
 }
 
@@ -524,8 +531,8 @@ input[type=text], input[type=password], textarea {
     padding-right: 1.5em;
 }
 
-@media screen and (max-width: 40em) {
-    .login h1, h2, h3, title-of-item, .footleft, .footright{
+@media screen and (max-width: 50em) {
+    .login h1, h2, h3, title-of-item, .footleft, .footright, .login_box, ul{
         position: relative;
         width: 100%;
         text-align: center;
