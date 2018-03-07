@@ -85,20 +85,6 @@ section h3 {
 
 /* styling for navigation */
 
-
-
-/* a {
-   color:black;
-   background-color:#333638;
-   padding: .50em 11%;
-   -webkit-transition: background-color 0.5s ease-out;
-   transition: background-color 0.5s ease-out;
-   text-decoration: none;
-   text-align: center;
-   font-size: 0.98em;
-} */
-
-
 .txtLink {
     font-family: 'Helvetica', sans-serif;
     font-size: 1em;
@@ -143,7 +129,7 @@ section h3 {
 
 .header3 {
     font-family: 'bebas', sans-serif;
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 .pgph {
@@ -414,15 +400,6 @@ product detail
     text-align: center;
 }
 
-#login-page li {
-    list-style-type: none;
-}
-
-.login_box {
-    text-align: center;
-    margin-top: 10em;
-}
-
 input[type=submit], .btn {
     display: inline-block;
     border: solid;
@@ -504,18 +481,44 @@ input[type=text], input[type=password], textarea {
     margin-top: 3em;
 }
 
-
-@media screen and (max-width: 50em) {
-    .cartfunctions {
-        width:100%;
-    }
-}
-
 /*Footer Styles*/
 
 .footer {
+    position: static;
+    left: 0;
+    bottom: 0;
     width: 100%;
     background-color: #999999;
+}
+
+.footfunctions {
+    flex-grow: 1;
+    padding: 1em;
+
+}
+
+.footfunctions ul {
+    list-style-type: none;
+}
+
+.footfunctions a {
+    width: 100%;
+    padding: 1em 0em;
+    margin-top: 3em;
+    color:black;
+    -webkit-transition: color 0.5s ease-out;
+    transition: color 0.5s ease-out;
+    text-decoration: none;
+    font-size: 0.98em;
+}
+
+.footleft {
+    float: left;
+}
+
+.footright {
+    float: right;
+    text-align: right;
 }
 
 @media screen and (max-width: 40em) {
@@ -525,7 +528,7 @@ input[type=text], input[type=password], textarea {
         text-align: center;
     }
 
-    button, .button-buy, img {
+    button, .button-buy, img, .cartfunctions {
         justify-content: center;
         width: 100%;
     }
